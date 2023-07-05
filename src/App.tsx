@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import MainContent from "./components/mainContent/MainCont";
+import MainContent from "./components/mainContent/MainContent";
 
 function App(): ReactElement {
   return (
