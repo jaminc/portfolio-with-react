@@ -2,19 +2,19 @@ import { ReactElement } from "react";
 
 import { Projects as ProjectsType } from "../../types/projects";
 
+import Project from "../project/Project";
+
 const Projects = ({ projects }: { projects: ProjectsType }): ReactElement => {
   return (
-    <>
+    <ul>
       {projects.map((project) => {
         return (
-          <>
-            <h3>{project.title}</h3>
-            <img src={project.imgSrc} alt="" />
-            <div>{project.description}</div>
-          </>
+          <li key={project.title}>
+            <Project project={project} />
+          </li>
         );
       })}
-    </>
+    </ul>
   );
 };
 
