@@ -3,6 +3,7 @@ export type Project = {
   description: string;
   sourceCodeLink: string;
   pageLink?: string;
+  imgSrc: string;
 };
 
 export type Projects = Project[];
