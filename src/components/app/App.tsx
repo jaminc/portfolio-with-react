@@ -1,13 +1,11 @@
 import { ReactElement } from "react";
 
-import MainContent from "../mainContent/MainContent";
-import Sidebar from "../sidebar/Sidebar";
+import Page from "../page/Page";
 
 function App(): ReactElement {
   return (
     <div className="App">
-      <Sidebar />
-      <MainContent />
+      <Page />
     </div>
   );
 }
