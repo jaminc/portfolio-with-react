@@ -2,3 +2,12 @@
   display: grid;
   grid-template-columns: 260px 1fr;
 }
+
+.sidebarContainer {
+  grid-column: 1;
+  position: fixed;
+}
+
+.mainContentContainer {
+  grid-column: 2;
+}

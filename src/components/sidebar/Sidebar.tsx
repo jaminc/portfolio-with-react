@@ -6,7 +6,7 @@ import styles from "./sidebar.module.css";
 
 const Sidebar = (): ReactElement => {
   return (
-    <>
+    <div>
       <h1>Jamin Cheung</h1>
       <div>Web Developer</div>
 
@@ -19,7 +19,7 @@ const Sidebar = (): ReactElement => {
           );
         })}
       </ul>
-    </>
+    </div>
   );
 };
 
