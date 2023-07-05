@@ -1,7 +1,7 @@
 import { ReactElement } from "react";
 
-import MainContent from "./components/mainContent/MainContent";
-import Sidebar from "./components/sidebar/Sidebar";
+import MainContent from "../mainContent/MainContent";
+import Sidebar from "../sidebar/Sidebar";
 
 function App(): ReactElement {
   return (
