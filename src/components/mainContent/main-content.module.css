@@ -1,0 +1,7 @@
+.container {
+  display: grid;
+}
+
+.mainContentSection {
+  border-bottom: 1px solid gray;
+}
