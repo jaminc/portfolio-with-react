@@ -1,0 +1,9 @@
+:root {
+  --color-theme-main: #0288d1;
+
+  --color-border-main: #000;
+  --color-border-opposite: #f4f4f4;
+
+  --color-font-main: #888;
+  --color-font-opposite: #fff;
+}
