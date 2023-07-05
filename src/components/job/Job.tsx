@@ -10,9 +10,12 @@ const Job = ({ job }: { job: JobType }): ReactElement => {
       <div>
         {job.startDate} - {job.endDate}
       </div>
-      {job.bulletPoints.map((bulletPoint) => {
-        return <div>{bulletPoint}</div>;
-      })}
+
+      <ul>
+        {job.bulletPoints.map((bulletPoint) => {
+          return <li>{bulletPoint}</li>;
+        })}
+      </ul>
     </>
   );
 };
