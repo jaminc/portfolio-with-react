@@ -1,4 +1,6 @@
-export const jobs = [
+import { Jobs } from "../components/types/jobs";
+
+export const jobs: Jobs = [
   {
     title: "Senior Software Engineer",
     company: "Capsule",
