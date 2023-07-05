@@ -1,8 +1,7 @@
+import { ReactElement } from "react";
 import MainContent from "./components/mainContent/MainCont";
 
-import "./App.css";
-
-function App() {
+function App(): ReactElement {
   return (
     <div className="App">
       <MainContent />
