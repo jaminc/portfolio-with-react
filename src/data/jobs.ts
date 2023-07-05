@@ -1,6 +1,6 @@
 import { Jobs } from "../types/jobs";
 
-export const jobs: Jobs = [
+const jobs: Jobs = [
   {
     title: "Senior Software Engineer",
     company: "Capsule",
@@ -52,3 +52,5 @@ export const jobs: Jobs = [
     ],
   },
 ];
+
+export default jobs;
