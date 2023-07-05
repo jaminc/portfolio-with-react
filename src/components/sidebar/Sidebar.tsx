@@ -6,7 +6,7 @@ import styles from "./sidebar.module.css";
 
 const Sidebar = (): ReactElement => {
   return (
-    <div>
+    <div className={styles.container}>
       <h1>Jamin Cheung</h1>
       <div>Web Developer</div>
 
@@ -14,7 +14,9 @@ const Sidebar = (): ReactElement => {
         {sidebarLinks.map((linkData) => {
           return (
             <li className={styles.linkContainer}>
-              <a href={linkData.link}>{linkData.title}</a>
+              <a href={linkData.link} className={styles.link}>
+                {linkData.title}
+              </a>
             </li>
           );
         })}

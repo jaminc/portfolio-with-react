@@ -1,11 +1,14 @@
 .container {
   display: grid;
-  grid-template-columns: 260px 1fr;
+  grid-template-columns: var(--sidebar-width) 1fr;
 }
 
 .sidebarContainer {
   grid-column: 1;
   position: fixed;
+  width: var(--sidebar-width);
+  height: 100%;
+  background: var(--color-theme-main);
 }
 
 .mainContentContainer {

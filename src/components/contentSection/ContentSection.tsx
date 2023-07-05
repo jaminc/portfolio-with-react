@@ -1,5 +1,7 @@
 import { ReactElement } from "react";
 
+import styles from "./content-section.module.css";
+
 const ContentSection = ({
   id,
   title,
@@ -12,7 +14,7 @@ const ContentSection = ({
   children: ReactElement;
 }): ReactElement => {
   return (
-    <section className={className} id={id}>
+    <section className={`${className} ${styles.container}`} id={id}>
       <h2>{title}</h2>
       {children}
     </section>
